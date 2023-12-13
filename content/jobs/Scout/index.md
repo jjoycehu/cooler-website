@@ -1,5 +1,5 @@
 ---
-date: '2017-04-01'
+date: '4'
 title: 'Developer'
 company: 'Scout Studio'
 location: 'Northeastern University'

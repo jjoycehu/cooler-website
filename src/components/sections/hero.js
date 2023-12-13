@@ -19,7 +19,7 @@ const StyledHeroSection = styled.section`
 
   h1 {
     margin: 0 0 30px 4px;
-    color: var(--green);
+    color: var(--pink);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
     font-weight: 400;
@@ -60,18 +60,17 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Joyce Hu.</h2>;
+  const three = <h3 className="big-heading">Data Scientist.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        I am a Political Science and Data Science student at{' '}
+        <a href="https://ucsd.edu/" target="_blank" rel="noreferrer">
+          UC San Diego
         </a>
-        .
+        . Fueled by my interdisciplinary background, I aspire to advance data-driven biology
+        research and health policy.
       </p>
     </>
   );
