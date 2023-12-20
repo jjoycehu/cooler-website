@@ -17,21 +17,36 @@ const variables = css`
     --pink: #FFCAC8;
     --neon-pink: #FFA9FD
     --old-green: #64ffda;
+    -- old-pink: #FFCAC8;
+    -- new-pink: #FFDFDF
 
     --light-pink: #F0D9E7;
+
+    --slate: #A799B7;
+    -- old-slate: #8892b0;
+    --new-gray-purple: #A799B7;
 
 
     --lightest-navy: #233554;
     --navy-shadow: rgba(2, 12, 27, 0.7);
     --dark-slate: #495670;
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+
+
+    
+    --light-slate: #A799B7;;
+    --old-light-slate: #a8b2d1;
+
+    --lightest-slate: #9F91CC;
+    --grey-purple: #9F91CC;
+    --old-lightest-slate: #ccd6f6;
+    
+
     --white: #e6f1ff;
 
     --green-tint: rgba(100, 255, 218, 0.1);
     --blue: #57cbff;
-    --grey-purple: #A799B7;
+
+    
     
     
 
