@@ -1,13 +1,13 @@
 ---
-date: '2018-10-01'
-title: 'Flagship Pioneering'
-github: ''
-external: 'https://www.flagshippioneering.com/'
+date: '2'
+title: 'Achieving SDG 3: Postnatal Care in Reducing Infant Mortality'
+github: 'https://github.com/jjoycehu/jjoycehu.github.io/blob/810f748cbade2d938fe7e77cb4bb52072fa07aa7/AccessToPostnatal.pdf'
+external: 'https://github.com/jjoycehu/jjoycehu.github.io/blob/810f748cbade2d938fe7e77cb4bb52072fa07aa7/AccessToPostnatal.pdf'
 tech:
-  - Craft CMS
-  - Chart.js
-company: 'Upstatement'
-showInProjects: false
+  - tidyverse
+  - stargazer
+company: ''
+showInProjects: true
 ---
 
-A marketing site for an ambitious life sciences venture capital company.
+Conducted Regression Analysis in R to demonstrate the positive relationship between access to postnatal care and lower Infant mortality rates.
