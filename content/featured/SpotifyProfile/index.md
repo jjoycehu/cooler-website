@@ -1,15 +1,14 @@
 ---
 date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+title: 'Environmental Performance Index'
+cover: './epi.jpg'
+github: 'https://github.com/jjoycehu/epi.git'
+external: 'https://github.com/jjoycehu/epi.git'
 tech:
-  - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - Tensorflow
+  - Keras
+  - scikit-learn
+  - pandas
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+Constructed an environmental performance index using Principal Component Analysis and grouped countries by their environmental performance using KMeans Clustering. Predicted environmental performance of countries using LASSO and achieved an R-square of 0.93 after cross-validation.
