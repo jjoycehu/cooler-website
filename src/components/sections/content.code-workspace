@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../content"
+		},
+		{
+			"path": "../../../node_modules"
+		},
+		{
+			"path": "../../../public"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../static"
+		}
+	]
+}

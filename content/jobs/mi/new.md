@@ -4,7 +4,7 @@ title: 'Foreign Policy Data Analytics'
 company: 'UC San Diego'
 location: 'UC San Diego'
 range: 'Jan - July 2023'
-url: 'https://web.northeastern.edu/scout/'
+url: 'https://polisci.ucsd.edu/'
 ---
 
 - Cleaned survey data with over 2,000 observations and 300 features per year in R using tidyverse and dplyr libraries

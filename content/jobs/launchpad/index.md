@@ -4,7 +4,7 @@ title: 'Machine Learning Fellow'
 company: 'Launchpad.ai'
 location: ''
 range: 'July - September 2023'
-url: 'https://starry.com/'
+url: 'https://www.launchpad.ai/'
 ---
 
 - Collaborated with team to develop generative AI solutions for virtual fashion try-on imaging, combining expertise in computer vision, deep learning, and fashion technology
