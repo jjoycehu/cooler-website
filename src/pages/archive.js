@@ -170,16 +170,8 @@ const ArchivePage = ({ location, data }) => {
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
-                  const {
-                    date,
-                    github,
-                    external,
-                    ios,
-                    android,
-                    title,
-                    tech,
-                    company,
-                  } = node.frontmatter;
+                  const { date, github, external, ios, android, title, tech, company } =
+                    node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
@@ -242,6 +234,7 @@ ArchivePage.propTypes = {
 
 export default ArchivePage;
 
+// i removed ios and android from this list which might be an issue later on
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
@@ -251,13 +244,10 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
-            date
             title
             tech
             github
             external
-            ios
-            android
             company
           }
           html

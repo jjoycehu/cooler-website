@@ -8,7 +8,7 @@ tech:
   - html
   - css
   - figma
-company: 'Scout'
+company: ''
 showInProjects: true
 ---
 
