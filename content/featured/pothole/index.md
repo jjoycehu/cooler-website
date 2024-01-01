@@ -2,8 +2,8 @@
 date: '3'
 title: 'San Diego Pothole Dashboard'
 cover: './pothole.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+external: 'https://public.tableau.com/app/profile/joyce.hu5044/viz/shared/NDM523XGJ'
+cta: 'https://public.tableau.com/app/profile/joyce.hu5044/viz/shared/NDM523XGJ'
 tech:
   - React
   - Express
