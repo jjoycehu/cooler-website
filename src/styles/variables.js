@@ -23,11 +23,13 @@ const variables = css`
     --light-pink: #F0D9E7;
 
     --slate: #A799B7;
-    -- old-slate: #8892b0;
+    --old-slate: #8892b0;
     --new-gray-purple: #A799B7;
 
 
-    --lightest-navy: #233554;
+    --lightest-navy: #A367B1;
+
+
     --navy-shadow: rgba(2, 12, 27, 0.7);
     --dark-slate: #495670;
 
