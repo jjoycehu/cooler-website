@@ -7,7 +7,7 @@ tech:
   - beautiful soup
   - pandas
   - pdfReader
-company: 'Apple'
+company: ''
 showInProjects: true
 ---
 
