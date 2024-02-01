@@ -68,7 +68,7 @@ const StyledPost = styled.li`
     padding: 2rem 1.75rem;
     border-radius: var(--border-radius);
     transition: var(--transition);
-    background-color: var(--light-navy);
+    background-color: var(--background-lite);
 
     header,
     a {
@@ -78,7 +78,7 @@ const StyledPost = styled.li`
 
   .post__icon {
     ${({ theme }) => theme.mixins.flexBetween};
-    color: var(--green);
+    color: var(--accent);
     margin-bottom: 30px;
     margin-left: -5px;
 
@@ -90,7 +90,7 @@ const StyledPost = styled.li`
 
   .post__title {
     margin: 0 0 10px;
-    color: var(--lightest-slate);
+    color: var(--header1);
     font-size: var(--fz-xxl);
 
     a {
@@ -110,12 +110,12 @@ const StyledPost = styled.li`
   }
 
   .post__desc {
-    color: var(--light-slate);
+    color: var(--icon-subtext);
     font-size: 17px;
   }
 
   .post__date {
-    color: var(--light-slate);
+    color: var(--icon-subtext);
     font-family: var(--font-mono);
     font-size: var(--fz-xxs);
     text-transform: uppercase;
@@ -130,7 +130,7 @@ const StyledPost = styled.li`
     list-style: none;
 
     li {
-      color: var(--green);
+      color: var(--accent);
       font-family: var(--font-mono);
       font-size: var(--fz-xxs);
       line-height: 1.75;
@@ -211,7 +211,10 @@ export default PensievePage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/content/posts/" }, frontmatter: { draft: { ne: true } } }
+      filter: {
+        fileAbsolutePath: { regex: "/content/posts/" }
+        frontmatter: { draft: { ne: true } }
+      }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

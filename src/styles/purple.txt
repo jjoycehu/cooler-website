@@ -1,21 +1,63 @@
-import { css } from 'styled-components';
-// edit colors here!
-const variables = css`
-  :root {
-    --primary-background: #542e71;
-    --accent: #ffcac8;
-    --header1: #9f91cc;
-    --primary-text: #a799b7;
+    
+    --primary-background: #542E71;
+    --accent: #FFCAC8;
+    --header1: #9F91CC;
+    --primary-text: #A799B7;
     --scrollbar: #495670;
     --box-shadow: rgba(2, 12, 27, 0.7);
-    --background-litest: #a367b1;
+    --background-litest: #A367B1;
     --background-lite: #593178;
-    --icon-subtext: #a799b7;
+    --icon-subtext: #A799B7;
+    --dark-navy: #542E71;
+    --old-dark-navy: #020c1b;
+    
+    
+    --purple: #542E71;
+    --navy: #542E71;
+    --old-navy: #0a192f;
+
+    --med-purple: #593178;
+    --light-navy: #59317;
+    --old-light-navy: #112240;
+    
+    --green: #FFCAC8;
+    --pink: #FFCAC8;
+    --neon-pink: #FFA9FD
+    --old-green: #64ffda;
+    -- old-pink: #FFCAC8;
+    -- new-pink: #FFDFDF
+
+    --light-pink: #F0D9E7;
+
+    --slate: #A799B7;
+    --old-slate: #8892b0;
+    --new-gray-purple: #A799B7;
+
+
+    --lightest-navy: #A367B1;
+
+
+    --navy-shadow: rgba(2, 12, 27, 0.7);
+    --dark-slate: #495670;
+
+
+    
+    --light-slate: #A799B7;;
+    --old-light-slate: #a8b2d1;
+
+    --lightest-slate: #9F91CC;
+    --grey-purple: #9F91CC;
+    --old-lightest-slate: #ccd6f6;
+    
 
     --white: #e6f1ff;
 
     --green-tint: rgba(100, 255, 218, 0.1);
     --blue: #57cbff;
+
+    
+    
+    
 
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
       sans-serif;
@@ -47,7 +89,3 @@ const variables = css`
     --ham-after: bottom 0.1s ease-in 0.25s, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     --ham-after-active: bottom 0.1s ease-out,
       transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
-  }
-`;
-
-export default variables;

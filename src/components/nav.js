@@ -39,7 +39,7 @@ const StyledHeader = styled.header`
         height: var(--nav-scroll-height);
         transform: translateY(0px);
         background-color: rgba(84, 46, 113, 0.85);
-        box-shadow: 0 10px 30px -10px var(--purple);
+        box-shadow: 0 10px 30px -10px var(--primary-background);
       `};
 
     ${props =>
@@ -48,7 +48,7 @@ const StyledHeader = styled.header`
       css`
         height: var(--nav-scroll-height);
         transform: translateY(calc(var(--nav-scroll-height) * -1));
-        box-shadow: 0 10px 30px -10px var(--navy-shadow);
+        box-shadow: 0 10px 30px -10px var(--box-shadow);
       `};
   }
 `;
@@ -57,7 +57,7 @@ const StyledNav = styled.nav`
   ${({ theme }) => theme.mixins.flexBetween};
   position: relative;
   width: 100%;
-  color: var(--lightest-slate);
+  color: var(--header1);
   font-family: var(--font-mono);
   counter-reset: item 0;
   z-index: 12;
@@ -66,7 +66,7 @@ const StyledNav = styled.nav`
     ${({ theme }) => theme.mixins.flexCenter};
 
     a {
-      color: var(--green);
+      color: var(--accent);
       width: 42px;
       height: 42px;
       position: relative;
@@ -92,7 +92,7 @@ const StyledNav = styled.nav`
             transition: var(--transition);
           }
           polygon {
-            fill: var(--navy);
+            fill: var(--primary-background);
           }
         }
       }
@@ -135,7 +135,7 @@ const StyledLinks = styled.div`
         &:before {
           content: '0' counter(item) '.';
           margin-right: 5px;
-          color: var(--green);
+          color: var(--accent);
           font-size: var(--fz-xxs);
           text-align: right;
         }
