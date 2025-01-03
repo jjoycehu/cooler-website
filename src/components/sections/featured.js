@@ -132,7 +132,7 @@ const StyledProject = styled.li`
     }
 
     @media (max-width: 768px) {
-      color: var(--white);
+      color: var(--header1);
 
       a {
         position: static;
@@ -253,10 +253,9 @@ const StyledProject = styled.li`
       opacity: 0.25;
     }
 
-    a {
       width: 100%;
       height: 100%;
-      background-color: var(--accent);
+      background-color: var(--primary-background);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -283,8 +282,9 @@ const StyledProject = styled.li`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--primary-background);
+        background-color: var(--accent2);
         mix-blend-mode: screen;
+        
       }
     }
 

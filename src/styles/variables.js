@@ -1,16 +1,18 @@
 import { css } from 'styled-components';
 // edit colors here!
+
 const variables = css`
   :root {
-    --primary-background: #542e71;
-    --accent: #ffcac8;
-    --header1: #9f91cc;
-    --primary-text: #a799b7;
+    --primary-background: #faf0f1;
+    --accent: #e4a25f;
+    --accent2: #f8a19f;
+    --header1: #f8a19f;
+    --primary-text: #822538;
     --scrollbar: #495670;
     --box-shadow: rgba(2, 12, 27, 0.7);
-    --background-litest: #a367b1;
-    --background-lite: #593178;
-    --icon-subtext: #a799b7;
+    --background-litest: #efd99e;
+    --background-lite: #ffedef;
+    --icon-subtext: #822538;
 
     --white: #e6f1ff;
 

@@ -386,7 +386,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: var(--accent);
+    color: var(--accent2);
   }
 
   .overline {
