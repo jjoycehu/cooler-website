@@ -65,7 +65,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I am a Political Science and Data Science student at{' '}
+        I am a Master's in Data Science student at{' '}
         <a href="https://ucsd.edu/" target="_blank" rel="noreferrer">
           UC San Diego
         </a>
@@ -75,13 +75,9 @@ const Hero = () => {
     </>
   );
   // const five = (
-  //   <a
-  //     className="email-link"
-  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
-  //     target="_blank"
-  //     rel="noreferrer">
-  //     Check out my course!
-  //   </a>
+  //   <a href="/resume.pdf" className="resume-link">
+  //             Resume
+  //           </a>
   // );
 
   const items = [one, two, three, four];

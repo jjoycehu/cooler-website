@@ -135,33 +135,35 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Joyce and I am a fourth year Political Science at the Univeristy of
-              California-San Diego. Contrary to what my major may suggest, my interdisciplinary
-              education from my minors in Data Science and biology has equipped me with domain
-              knowledge crucial for meaningful contributions to data-driven decision making in
-              health policy and the biotech field.
+              Hello! My name is Joyce, and I am a Master’s student in Data Science at the University of California, San Diego.
+            </p>  
+
+            <p>
+
+              I hold a B.S. in Political Science and Data Analytics, with a strong foundation in biology and public health. 
+              My background is centered around leveraging data science to drive decisions that improve health outcomes and quality of life.
+              I am particularly interested in data engineering and building scalable pipelines to support machine learning. 
+
             </p>
 
             <p>
-              I’ve had the privilege of working at the{' '}
-              <a href="https://us.mullenlowe.com/">U.S. Immigration Policy Center</a> where I used
+              I’ve had the privilege of working at the{' '}<a href="https://https://usipc.ucsd.edu/">U.S. Immigration Policy Center</a> where I used
               data analytics to advance refugee research and at{' '}
-              <a href="https://starry.com/">Launchpad.ai</a> where I tested generative a.i. models.
-              Currently, I have the opportunity to explore genome sequencing research at{' '}
-              <a href="https://scout.camd.northeastern.edu/">J. Craig Venter Institute</a> as a
-              resarch assistant.
+              <a href="https://https://www.launchpad.ai/">Launchpad.ai</a> where I tested generative a.i. models.
+              Currently, I have the opportunity to research different machine learning techniques for computationally annotating cell types at{' '}
+              <a href="https://https://www.jcvi.org/">J. Craig Venter Institute</a>.
             </p>
 
             {/* <p>
               //In my free time, I test pastry recipes and uncover the "science" behind baking, 
             </p> */}
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            {/* <p>Here are a few technologies I’ve been working with recently:</p> */}
           </div>
 
-          <ul className="skills-list">
+          {/* <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
+          </ul> */}
         </StyledText>
 
         <StyledPic>
